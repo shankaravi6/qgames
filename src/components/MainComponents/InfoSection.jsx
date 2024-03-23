@@ -1,16 +1,17 @@
 import React from 'react';
 import manimg from '../../assets/images/man.jpeg'
-import { Slide } from 'react-awesome-reveal';
+import { Fade, Slide } from 'react-awesome-reveal';
 
 const InfoSection = () => {
   return (
-    <div className='pt-52 pb-10'>
+    <div className='pt-52 pb-20 relative overflow-hidden'>
+      <div className='pointer' style={{top:"50px", right:"-175px"}}></div>
       <div className='section flex gap-20 justify-center items-center w-full'>
-      <Slide direction='left'>
+      <Fade>
         <div className=''>
             <img src={manimg} width='100%' height='100%'/>
         </div>
-        </Slide>
+        </Fade>
         <div className='flex gap-2 justify-center items-start flex-col w-full'>
         <Slide direction='right'>
 

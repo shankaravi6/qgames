@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@font-face {
+    src: url("./assets/fonts/JosefinSansSemibold-p7Z0v.ttf");
+    font-family: "Jose";
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    font-family: Jose !important;
+}

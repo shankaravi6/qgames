@@ -1,0 +1,68 @@
+
+body{
+  background-color: rgb(7, 18, 14);
+}
+
+.section {
+  padding: 0 100px 0 100px;
+}
+
+.center-text {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.bottom-cards {
+  position: absolute;
+  bottom: 0px;
+  top:750px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.ban-img {
+  filter: blur(5px);
+  opacity: 0.65;
+}
+
+.title-text {
+  font-size: clamp(2rem, 4vw, 110px);
+  background: -webkit-linear-gradient(#17e19b, #dfe8e5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.caption-text {
+  font-size: 30px;
+  color: #ccffdd;
+}
+
+.sub-text {
+  font-size: 25px;
+  color: #dfe8e5;
+}
+
+.main-btn {
+  padding: 10px 20px;
+  border-radius: 50px;
+  border: unset;
+}
+
+.card-box {
+  width: 300px;
+  height: 300px;
+  background: rgba(44, 174, 128, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(150, 240, 226, 0.218);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 25px;
+}

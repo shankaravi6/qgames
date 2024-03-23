@@ -1,12 +1,12 @@
 import React from "react";
 
 import BirdCard from "../BidsComponents/BirdCard";
-import { Slide } from "react-awesome-reveal";
+import { Slide, Zoom } from "react-awesome-reveal";
 
 const TrendBids = () => {
   return (
     <div
-      className="pt-32 pb-6"
+      className="pt-16 pb-44"
       style={{ backgroundColor: "#211801", opacity: "0.85" }}
     >
       <div className="section flex items-center justify-center flex-col gap-2">
@@ -18,10 +18,12 @@ const TrendBids = () => {
           </span>
         </Slide>
       </div>
+      <Zoom>
       <div className="flex flex-row pl-16 pr-16 gap-20">
         <BirdCard />
         <BirdCard />
       </div>
+      </Zoom>
     </div>
   );
 };

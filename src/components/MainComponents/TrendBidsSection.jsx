@@ -6,7 +6,7 @@ const TrendBidsSection = () => {
   return (
     <div
       className="pt-16 pb-44"
-      style={{ backgroundColor: "#211801", opacity: "0.85" }}
+      style={{ backgroundColor: "#270b5b", opacity: "0.85" }}
     >
       <div className="section flex items-center justify-center flex-col gap-2">
         <Slide>

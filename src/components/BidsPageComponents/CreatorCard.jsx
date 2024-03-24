@@ -15,12 +15,12 @@ const CreatorCard = () => {
           
         </div>
         <div className="flex flex-col">
-        <span className="text-orange-950 ">John Wick</span>
-        <span className="text-gray-950 text-sm">60 Items</span>
+        <span className="text-pink-950 ">John Wick</span>
+        <span className="text-cyan-950 text-sm">60 Items</span>
 </div>
       </div>
       <div>
-        <Button variant="contained" color="warning">
+        <Button variant="contained" color="secondary">
           Follow
         </Button>
       </div>

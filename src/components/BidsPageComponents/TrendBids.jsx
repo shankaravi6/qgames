@@ -13,7 +13,7 @@ const TrendBids = () => {
             </div>
             <div className='flex flex-col'>
                 <span className='text-green-400'>+145.09 ETH</span>
-                <span className='text-orange-500'>Last Week</span>
+                <span className='text-pink-500'>Last Week</span>
             </div>
         </div>
 
@@ -24,7 +24,7 @@ const TrendBids = () => {
             </div>
             <div className='flex flex-col'>
                 <span className='text-green-400'>+145.09 ETH</span>
-                <span className='text-orange-500'>Last Week</span>
+                <span className='text-pink-500'>Last Week</span>
             </div>
         </div>
 
@@ -35,7 +35,7 @@ const TrendBids = () => {
             </div>
             <div className='flex flex-col'>
                 <span className='text-green-400'>+145.09 ETH</span>
-                <span className='text-orange-500'>Last Week</span>
+                <span className='text-pink-500'>Last Week</span>
             </div>
         </div>
 

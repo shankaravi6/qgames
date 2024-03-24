@@ -1,6 +1,5 @@
 import React from "react";
 import BidCard from "../BidsComponents/BidCard";
-import BirdCard from "./BirdCard";
 import BidNewCard from "./BidNewCard";
 import {
   Button,
@@ -25,10 +24,10 @@ const AllBidsSection = () => {
             <div className="flex flex-col gap-5 pt-5 set-text">
               <TextField
                 variant="outlined"
-                color="warning"
+                color="secondary"
                 fullWidth
                 style={{
-                  border: "1.5px solid #e65100",
+                  border: "1.5px solid #9c27b0",
                   borderRadius: "5px",
                   color: "white !important",
                 }}
@@ -36,10 +35,10 @@ const AllBidsSection = () => {
               />
               <TextField
                 variant="outlined"
-                color="warning"
+                color="secondary"
                 fullWidth
                 style={{
-                  border: "1.5px solid #e65100",
+                  border: "1.5px solid #9c27b0",
                   borderRadius: "5px",
                   color: "white !important",
                 }}
@@ -68,11 +67,11 @@ const AllBidsSection = () => {
                     <div className="flex justify-between">
                   <FormGroup>
                     <FormControlLabel
-                      control={<Checkbox color="warning" />}
+                      control={<Checkbox color="secondary" />}
                       label={data.name}
                     />
                   </FormGroup>
-                  <span className="text-orange-200 text-lg">{data.value}</span>
+                  <span className="text-pink-200 text-lg">{data.value}</span>
                   </div>
                 );
               })}
@@ -88,11 +87,11 @@ const AllBidsSection = () => {
                     <div className="flex justify-between">
                   <FormGroup>
                     <FormControlLabel
-                      control={<Checkbox color="warning" />}
+                      control={<Checkbox color="secondary" />}
                       label={data.name}
                     />
                   </FormGroup>
-                  <span className="text-orange-200 text-lg">{data.value}</span>
+                  <span className="text-pink-200 text-lg">{data.value}</span>
                   </div>
                 );
               })}

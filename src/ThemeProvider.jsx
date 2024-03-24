@@ -3,15 +3,15 @@ import React, { createContext, useContext, useMemo, useState } from "react";
 export const colorTokens = {
  //Green
   primary: {
-    800: "#f7ae6e",
-    900: "#f5933d",
-    1000: "#f2780d",
+    800: "#c545d3",
+    900: "#cc5ad8",
+    1000: "#691b72",
   },
   //Dark Green
   secondary: {
-    800:"#492404",
-    900: "#301803",
-    1000:"#180c01",
+    800:"#270b5b",
+    900: "#150631",
+    1000:"#14062d",
   },
 };
 

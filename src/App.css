@@ -1,6 +1,6 @@
 
 body{
-  background-color: rgb(23 11 1);
+  background-color: #14062d;
 }
 
 .section {
@@ -36,19 +36,19 @@ body{
 
 .title-text {
   font-size: clamp(2rem, 4vw, 110px);
-  background: -webkit-linear-gradient(#f28a2e, #e8e5df);
+  background: -webkit-linear-gradient(#cc5ad8, #e8e5df);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .caption-text {
   font-size: 30px;
-  color: #f8d9bf;
+  color: #72c0e4;
 }
 
 .sub-text {
   font-size: 25px;
-  color: #faf5f0;
+  color: #f5e8f5;
 }
 
 .main-btn {
@@ -60,8 +60,8 @@ body{
 .card-box {
   width: 300px;
   height: 300px;
-  background: rgba(237, 168, 90, 0.25);
-  box-shadow: 0 8px 32px 0 rgba(240, 204, 150, 0.218);
+  background: rgba(208, 90, 237, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(201, 150, 240, 0.218);
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
   border-radius: 25px;
@@ -69,7 +69,7 @@ body{
 
 
 .card-container {
-	background-color: #371a00;
+	background-color: #340037;
 	border-radius: 5px;
 	box-shadow: 0px 10px 20px -10px rgba(0,0,0,0.75);
 	color: #B3B8CD;
@@ -87,16 +87,16 @@ body{
 
 
 .card-container .round {
-	border: 1px solid #bc8907;
+	border: 1px solid #bc0795;
 	border-radius: 50%;
 	padding: 7px;
 }
 
 button.primary {
-	background-color: #bc8907;
-	border: 1px solid #bc8907;
+	background-color: #bc07aa;
+	border: 1px solid #bc0795;
 	border-radius: 3px;
-	color: #231E39;
+	color: #f2f2f2;
 	font-family: Montserrat, sans-serif;
 	font-weight: 500;
 	padding: 10px 25px;
@@ -104,7 +104,7 @@ button.primary {
 
 button.primary.ghost {
 	background-color: transparent;
-	color: #bc8907;
+	color: #b007bc;
 }
 
 .skills {
@@ -121,7 +121,7 @@ button.primary.ghost {
 }
 
 .skills ul li {
-	border: 1px solid #2D2747;
+	border: 1px solid #472744;
 	border-radius: 2px;
 	display: inline-block;
 	font-size: 12px;
@@ -131,7 +131,7 @@ button.primary.ghost {
 
 
 .pointer {
-  background-color: #5f4400;
+  background-color: #5f0059;
   width: 300px;
   height: 300px;
   border-radius: 50%;
@@ -143,7 +143,7 @@ button.primary.ghost {
   width: 170px;
   height: 170px;
   border-radius: 50%;
-  box-shadow: 2px 8px #ebca78;
+  box-shadow: 2px 8px #eb78da;
 }
 
 .gradient{
@@ -160,7 +160,7 @@ button.primary.ghost {
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: rgb(46, 28, 3);
+  background-color: rgb(46, 3, 42);
   color: white;
   text-align: center;
   padding: 25px;
@@ -171,12 +171,12 @@ button.primary.ghost {
   width: 300px;
   height: 300px;
   background-color: transparent;
-  border:1.5px solid #7d5202;
+  border:1.5px solid #7d0268;
   border-radius: 25px;
 }
 
 .bids-top{
-  background-color: #ebca78;
+  background-color: #eb78dc;
   width: 70px;
   height: 70px;
   position: absolute;
@@ -193,31 +193,31 @@ button.primary.ghost {
   width: 450px;
   height: inherit;
   padding: 20px 25px;
-  background-color: #5f4400;
+  background-color: #5f004e;
   border-radius: 5px;
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-  background: rgba( 142, 113, 59, 0.35 );
-box-shadow: 0 8px 12px 0 rgba(135, 88, 31, 0.37);
+  background: rgba(142, 59, 123, 0.35);
+box-shadow: 0 8px 12px 0 rgba(135, 31, 105, 0.37);
 backdrop-filter: blur( 2px );
 -webkit-backdrop-filter: blur( 2px );
 border-radius: 10px;
-border: 1px solid rgba( 255, 255, 255, 0.18 );
+border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
 .set-text input {
-  color: #f8d9bf !important;
+  color: #f8bfee !important;
 }
 
 .set-text label {
-  color: #f8d9bf !important;
+  color: #f8bfee !important;
 }
 
 .trend-bids {
   height: 100px;
   width: 100%;
   padding: 20px;
-  background: rgba(219, 136, 10, 0.25);
-box-shadow: 0 8px 32px 0 rgba(135, 100, 31, 0.37);
+  background: rgba(198, 10, 219, 0.25);
+box-shadow: 0 8px 32px 0 rgba(135, 31, 128, 0.37);
 backdrop-filter: blur( 3.5px );
 -webkit-backdrop-filter: blur( 3.5px );
 border-radius: 10px;

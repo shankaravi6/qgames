@@ -7,7 +7,7 @@ const BidCard = () => {
     <div id="container">
       <div class="product-details flex flex-col">
         <h1>Brighten IQ</h1>
-        <h2>Ultra Power Core</h2>
+        <h2 className="text-pink-900">Ultra Power Core</h2>
         <div className="flex gap-5 items-center pt-6">
           <div style={{ width: "50px", height: "50px" }}>
             <img
@@ -17,22 +17,22 @@ const BidCard = () => {
             />
           </div>
           <div className="flex flex-col">
-            <span className="text-orange-900 text-xl">John Wick</span>
+            <span className="text-purple-900 text-xl">John Wick</span>
             <span className="text-gray-700 text-xs">United States</span>
           </div>
         </div>
         <div className="flex gap-2 flex-col pt-8">
           <div className="flex justify-between w-full">
-            <span>Auction Time</span>
-            <span>3h 1m 50s</span>
+            <span className="text-sky-950">Auction Time</span>
+            <span className="text-sky-950">3h 1m 50s</span>
           </div>
           <div className="flex justify-between w-full">
-            <span>Current Bid</span>
-            <span>0.05 ETH</span>
+            <span className="text-sky-950">Current Bid</span>
+            <span className="text-sky-950">0.05 ETH</span>
           </div>
         </div>
         <div className="pt-5">
-          <Button variant="contained" color="warning" fullWidth>
+          <Button variant="contained" color="secondary" fullWidth>
             Place a bid
           </Button>
         </div>

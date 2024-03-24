@@ -5,6 +5,7 @@ import HomePage from "./pages/HomePage";
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
 import BidsPage from "./pages/BidsPage";
 import FooterSection from "./components/MainComponents/FooterSection";
+import LotteryPage from "./pages/LotteryPage";
 
 const App = () => {
   return (
@@ -27,6 +28,7 @@ const AppContent = () => {
       <Routes>
         <Route path='/' element={<HomePage />}/>
         <Route path='/bidding' element={<BidsPage/>} />
+        <Route path='/lottery' element={<LotteryPage/>} />
       </Routes>
       
       <FooterSection/>

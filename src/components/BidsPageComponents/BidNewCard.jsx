@@ -13,7 +13,7 @@ const BidNewCard = () => {
         </div>
         </div>
         <div className='pt-5'>
-            <h1 className='text-2xl text-amber-900'>Light Wave</h1>
+            <h1 className='text-2xl text-violet-900'>Light Wave</h1>
         </div>
         <div className='flex flex-col gap-2 pt-5'>
             <div className='flex gap-5 justify-between'>
@@ -26,8 +26,8 @@ const BidNewCard = () => {
             </div>
         </div>
         <div className='flex justify-between pt-5 gap-5'>
-            <Button variant='contained' color='warning' fullWidth>Place Bid</Button>
-            <Button variant='outlined' color='warning' style={{border:"2px solid #e65100",color:"#e65100"}} fullWidth>Details</Button>
+            <Button variant='contained' color='secondary' fullWidth>Place Bid</Button>
+            <Button variant='outlined' color='secondary' style={{border:"2px solid #9c27b0",color:"#9c27b0"}} fullWidth>Details</Button>
 
         </div>
       </div>

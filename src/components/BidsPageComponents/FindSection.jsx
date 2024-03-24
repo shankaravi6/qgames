@@ -25,7 +25,7 @@ const FindSection = () => {
           <AccountBalanceWalletIcon
             style={{ fontSize: "75px", color: `${palette.grad}` }}
           />
-          <div className="text-orange-200 text-3xl text-center ">
+          <div className="text-pink-300 text-3xl text-center ">
             Connet Wallet
           </div>
         </div>
@@ -40,7 +40,7 @@ const FindSection = () => {
           <PolicyIcon
             style={{ fontSize: "75px", color: `${palette.grad}` }}
           />
-          <div className="text-orange-200 text-3xl text-center ">
+          <div className="text-pink-300 text-3xl text-center ">
             Find Your Bids
           </div>
         </div>
@@ -55,7 +55,7 @@ const FindSection = () => {
           <AddShoppingCartIcon
             style={{ fontSize: "75px", color: `${palette.grad}` }}
           />
-          <div className="text-orange-200 text-3xl text-center ">
+          <div className="text-pink-300 text-3xl text-center ">
             Place To Order
           </div>
         </div>

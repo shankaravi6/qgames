@@ -142,6 +142,7 @@ const Navigation = () => {
                 Bidding
               </Button>
               <Button
+              onClick={() => navigate('/lottery')}
                 sx={{ my: 2, color: "white", display: "block", ml:5}}
               >
                 Lottery

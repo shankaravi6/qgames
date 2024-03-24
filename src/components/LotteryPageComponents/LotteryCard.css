@@ -11,7 +11,7 @@ img {
 
 .card-hover {
   width: 360px;
-  height: 500px;
+  height: 450px;
   position: relative;
   overflow: hidden;
   box-shadow: 0 0 32px -10px rgba(0, 0, 0, 0.08);
@@ -24,7 +24,7 @@ img {
 }
 
 .card-hover:hover .card-hover__content {
-  background-color: #e8d7c2;
+  background-color: #e8c2e4;
   bottom: 100%;
   transform: translateY(100%);
   padding: 50px 60px;
@@ -45,7 +45,7 @@ img {
 .card-hover__content {
   width: 100%;
   text-align: center;
-  background-color: #d4af7b;
+  background-color: #d48fc4;
   padding: 0 60px 50px;
   position: absolute;
   bottom: 0;
@@ -83,7 +83,7 @@ img {
 }
 
 .card-hover__title span {
-  color: #7f4b0b;
+  color: #660760;
 }
 
 .card-hover__text {
@@ -99,7 +99,7 @@ img {
   flex-wrap: wrap;
   align-items: center;
   text-decoration: none;
-  color: #7f510b;
+  color: #7f0b77;
   opacity: 0;
   padding: 10px;
   transition: all 0.35s;
@@ -125,7 +125,7 @@ img {
   width: 100%;
   font-size: 1.5rem;
   text-align: center;
-  background-color: #b99071;
+  background-color: #b971aa;
   padding: 80px;
   bottom: 0;
   z-index: 0;
@@ -136,7 +136,7 @@ img {
 }
 
 .card-hover__extra span {
-  color: #7f580b;
+  color: #7f0b62;
 }
 
 .card-hover img {

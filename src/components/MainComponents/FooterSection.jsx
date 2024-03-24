@@ -10,8 +10,8 @@ const FooterSection = () => {
           <h1 className="title-text">Don‘t Miss Out, Stay Updated</h1>
         </Slide>
         <div className='pt-12 flex flex-col gap-10'>
-        <TextField style={{border:"1.5px solid #e65100", borderRadius:"5px", color:"white !important", width:"500px"}} variant='outlined' placeholder='Email Address' color='warning' />
-        <Button variant='contained' color='warning' size='large'>Subscribe</Button>
+        <TextField style={{border:"1.5px solid #9c27b0", borderRadius:"5px", color:"white !important", width:"500px"}} variant='outlined' placeholder='Email Address' color='secondary' />
+        <Button variant='contained' color='secondary' size='large'>Subscribe</Button>
         </div>
         <div className='w-4/5 flex justify-center items-center flex-col pt-14 gap-2'>
             <span className='caption-text'>Q-Games</span>

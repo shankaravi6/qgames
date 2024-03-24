@@ -1,8 +1,7 @@
 import React from "react";
 import LotteryBox from "../LotteryComponents/LotteryBox";
 import { Bounce, Slide } from "react-awesome-reveal";
-import './LotterySection.css'
-
+import '../../App.css'
 
 const LotterySection = () => {
 

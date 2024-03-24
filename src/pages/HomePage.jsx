@@ -2,8 +2,9 @@ import React from 'react'
 import BannerSection from '../components/MainComponents/BannerSection'
 import InfoSection from '../components/MainComponents/InfoSection'
 import WinnersSecion from '../components/MainComponents/WinnersSecion'
-import TrendBids from '../components/MainComponents/TrendBids'
 import LotterySection from '../components/MainComponents/LotterySection'
+import TrendBidsSection from '../components/MainComponents/TrendBidsSection'
+import FooterSection from '../components/MainComponents/FooterSection'
 
 const HomePage = () => {
   return (
@@ -11,8 +12,9 @@ const HomePage = () => {
       <BannerSection/>
       <InfoSection/>
       <WinnersSecion/>
-      <TrendBids/>
+      <TrendBidsSection/>
       <LotterySection/>
+      <FooterSection/>
     </div>
   )
 }

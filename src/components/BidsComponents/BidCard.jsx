@@ -1,8 +1,8 @@
 import React from "react";
-import '../MainComponents/TrendBids.css'
+import './BidCard.css'
 import { Button } from "@mui/material";
 
-const BirdCard = () => {
+const BidCard = () => {
   return (
     <div id="container">
       <div class="product-details flex flex-col">
@@ -66,4 +66,4 @@ const BirdCard = () => {
   );
 };
 
-export default BirdCard;
+export default BidCard;

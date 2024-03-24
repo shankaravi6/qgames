@@ -145,3 +145,23 @@ button.primary.ghost {
   border-radius: 50%;
   box-shadow: 2px 8px #ebca78;
 }
+
+.gradient{
+  background-image: url('https://static.vecteezy.com/system/resources/previews/023/204/842/non_2x/golden-confetti-falls-on-a-transparent-background-festival-and-party-element-confetti-illustration-golden-party-tinsel-frame-for-a-carnival-background-birthday-celebration-elements-free-png.png');
+  background-size: cover;
+}
+
+.css-11qfo8z-MuiInputBase-root-MuiOutlinedInput-root {
+  color: white !important;
+}
+
+.footer {
+  position:absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(46, 28, 3);
+  color: white;
+  text-align: center;
+  padding: 25px;
+}

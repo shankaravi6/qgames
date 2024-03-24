@@ -1,9 +1,8 @@
 import React from "react";
-
-import BirdCard from "../BidsComponents/BirdCard";
 import { Slide, Zoom } from "react-awesome-reveal";
+import BidCard from "../BidsComponents/BidCard";
 
-const TrendBids = () => {
+const TrendBidsSection = () => {
   return (
     <div
       className="pt-16 pb-44"
@@ -20,12 +19,12 @@ const TrendBids = () => {
       </div>
       <Zoom>
       <div className="flex flex-row pl-16 pr-16 gap-20">
-        <BirdCard />
-        <BirdCard />
+        <BidCard />
+        <BidCard />
       </div>
       </Zoom>
     </div>
   );
 };
 
-export default TrendBids;
+export default TrendBidsSection;

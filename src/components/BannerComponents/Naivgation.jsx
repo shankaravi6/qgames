@@ -19,10 +19,11 @@ import FacebookIcon from '@mui/icons-material/Facebook';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import XIcon from '@mui/icons-material/X';
 import RedditIcon from '@mui/icons-material/Reddit';
+import { useNavigate } from "react-router-dom";
 
 const pages = ["Home", "Lottery Page", "Bidding"];
 
-function Navigation() {
+const Navigation = () => {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
   const [anchorElUser, setAnchorElUser] = React.useState(null);
 
@@ -44,6 +45,9 @@ function Navigation() {
   const palette = usePalette();
 
   const { mode, toggleMode } = useTheme();
+
+  const navigate = useNavigate();
+ 
 
   return (
     <AppBar
@@ -124,15 +128,25 @@ function Navigation() {
             Q Games
           </Typography>
           <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
-            {pages.map((page) => (
+            
               <Button
-                key={page}
-                onClick={handleCloseNavMenu}
+                onClick={() => navigate('/')}
                 sx={{ my: 2, color: "white", display: "block", ml:5}}
               >
-                {page}
+                Home
               </Button>
-            ))}
+              <Button
+                onClick={() => navigate('/bidding')}
+                sx={{ my: 2, color: "white", display: "block", ml:5}}
+              >
+                Bidding
+              </Button>
+              <Button
+                sx={{ my: 2, color: "white", display: "block", ml:5}}
+              >
+                Lottery
+              </Button>
+            
           </Box>
 
           <Box sx={{ flexGrow: 0, display:"flex", gap:"20px" }}>

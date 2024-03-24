@@ -6,7 +6,9 @@ import LotterySection from '../components/MainComponents/LotterySection'
 import TrendBidsSection from '../components/MainComponents/TrendBidsSection'
 import FooterSection from '../components/MainComponents/FooterSection'
 
+
 const HomePage = () => {
+
   return (
     <div>
       <BannerSection/>
@@ -14,7 +16,6 @@ const HomePage = () => {
       <WinnersSecion/>
       <TrendBidsSection/>
       <LotterySection/>
-      <FooterSection/>
     </div>
   )
 }

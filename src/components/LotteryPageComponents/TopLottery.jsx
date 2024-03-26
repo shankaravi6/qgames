@@ -1,6 +1,7 @@
 import React from "react";
 import { Slide } from "react-awesome-reveal";
 import LotteryCard from "./LotteryCard";
+import LotteryBox from "./LotteryBox";
 
 const TopLottery = () => {
   return (
@@ -13,7 +14,10 @@ const TopLottery = () => {
         <LotteryCard />
         <LotteryCard />
         <LotteryCard />
+        </div>
 
+        <div>
+        <LotteryBox/>
         </div>
       </div>
     </div>
